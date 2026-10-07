@@ -1,0 +1,802 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the gimp-raw-heic package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: gimp-raw-heic\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-07 14:52+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: src/adjust.c:37
+msgid "Quick adjustments (non-destructive)..."
+msgstr ""
+
+#: src/adjust.c:40
+msgid "Add editable exposure, white balance and tone filters"
+msgstr ""
+
+#: src/adjust.c:41
+msgid ""
+"Adds GEGL filters as non-destructive layer effects: exposure, colour "
+"temperature, shadows/highlights, contrast, saturation and optionally empty "
+"Levels and Curves.  Each one stays editable later."
+msgstr ""
+
+#: src/adjust.c:49 src/settings.c:190
+msgid "Exposure (EV)"
+msgstr ""
+
+#: src/adjust.c:50
+msgid "Exposure in stops"
+msgstr ""
+
+#: src/adjust.c:51
+msgid "Black level"
+msgstr ""
+
+#: src/adjust.c:52
+msgid "Black point offset"
+msgstr ""
+
+#: src/adjust.c:53
+msgid "Original temperature (K)"
+msgstr ""
+
+#: src/adjust.c:54
+msgid "Light the photo was taken in"
+msgstr ""
+
+#: src/adjust.c:55
+msgid "Intended temperature (K)"
+msgstr ""
+
+#: src/adjust.c:56
+msgid "Light it should look like"
+msgstr ""
+
+#: src/adjust.c:57
+msgid "Shadows"
+msgstr ""
+
+#: src/adjust.c:58
+msgid "Lift (+) or deepen (-) shadows"
+msgstr ""
+
+#: src/adjust.c:59
+msgid "Highlights"
+msgstr ""
+
+#: src/adjust.c:60
+msgid "Recover (-) or boost (+) highlights"
+msgstr ""
+
+#: src/adjust.c:61 src/adjust.c:156
+msgid "Contrast"
+msgstr ""
+
+#: src/adjust.c:62
+msgid "Contrast change"
+msgstr ""
+
+#: src/adjust.c:63 src/adjust.c:164
+msgid "Saturation"
+msgstr ""
+
+#: src/adjust.c:64
+msgid "Saturation scale, 1 = unchanged"
+msgstr ""
+
+#: src/adjust.c:65
+msgid "Add Levels for later editing"
+msgstr ""
+
+#: src/adjust.c:66
+msgid "Add an unchanged Levels effect"
+msgstr ""
+
+#: src/adjust.c:67
+msgid "Add Curves for later editing"
+msgstr ""
+
+#: src/adjust.c:68
+msgid "Add an unchanged Curves effect"
+msgstr ""
+
+#: src/adjust.c:90
+msgid "Select exactly one layer."
+msgstr ""
+
+#: src/adjust.c:103
+msgid "Quick adjustments (non-destructive)"
+msgstr ""
+
+#: src/adjust.c:130 src/raw-dialog.c:302
+msgid "Exposure"
+msgstr ""
+
+#: src/adjust.c:139
+msgid "Colour temperature"
+msgstr ""
+
+#: src/adjust.c:148
+msgid "Shadows-Highlights"
+msgstr ""
+
+#: src/adjust.c:171
+msgid "Levels"
+msgstr ""
+
+#: src/adjust.c:178
+msgid "Curves"
+msgstr ""
+
+#: src/adjust.c:187
+msgid "All values are neutral: no effect was added."
+msgstr ""
+
+#: src/batch.c:38
+msgid "Open several RAW files..."
+msgstr ""
+
+#: src/batch.c:46
+msgid "Develop several RAW files with the same settings"
+msgstr ""
+
+#: src/batch.c:47
+msgid ""
+"Pick RAW files, choose development settings once and open them all; the "
+"progress can be cancelled."
+msgstr ""
+
+#: src/batch.c:55
+msgid "Files"
+msgstr ""
+
+#: src/batch.c:56
+msgid "Paths of the RAW files to open"
+msgstr ""
+
+#: src/batch.c:71
+msgid "Open several RAW files"
+msgstr ""
+
+#: src/batch.c:73
+msgid "_Cancel"
+msgstr ""
+
+#: src/batch.c:74
+msgid "_Open"
+msgstr ""
+
+#: src/batch.c:79
+msgid "Camera RAW files"
+msgstr ""
+
+#: src/batch.c:163
+msgid "No files were given."
+msgstr ""
+
+#: src/batch.c:173
+#, c-format
+msgid "Develop %d RAW file"
+msgid_plural "Develop %d RAW files"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/batch.c:195
+#, c-format
+msgid "(%d/%d) %s"
+msgstr ""
+
+#: src/batch.c:229
+#, c-format
+msgid ""
+"Some files could not be opened:\n"
+"%s"
+msgstr ""
+
+#: src/batch.c:235
+msgid "Opening was cancelled."
+msgstr ""
+
+#: src/heif-load.c:63
+msgid "Load the embedded thumbnail of a HEIF/AVIF file"
+msgstr ""
+
+#: src/heif-load.c:64
+msgid "Fast thumbnail from the preview stored in HEIF files."
+msgstr ""
+
+#: src/heif-load.c:74
+msgid "HEIF/HEIC/AVIF with HDR (PQ/HLG)"
+msgstr ""
+
+#: src/heif-load.c:76
+msgid "Load HEIF/HEIC/AVIF images, including HDR"
+msgstr ""
+
+#: src/heif-load.c:77
+msgid ""
+"Decodes HDR images (PQ and HLG transfer) into scene-linear floating point; "
+"all other images are loaded by GIMP's built-in HEIF loader."
+msgstr ""
+
+#: src/heif-load.c:93
+msgid "_HDR images"
+msgstr ""
+
+#: src/heif-load.c:94
+msgid "What to do with HDR (PQ/HLG) images"
+msgstr ""
+
+#: src/heif-load.c:97
+msgid "Scene-linear 32-bit float (keep HDR)"
+msgstr ""
+
+#: src/heif-load.c:99
+msgid "Tone-map to SDR (16-bit sRGB)"
+msgstr ""
+
+#: src/heif-load.c:101
+msgid "Use GIMP's built-in loader for all files"
+msgstr ""
+
+#: src/heif-load.c:139
+msgid "GIMP's built-in HEIF loader is not available."
+msgstr ""
+
+#: src/heif-load.c:194
+msgid "HEIF files can only be opened from a local disk."
+msgstr ""
+
+#: src/heif-load.c:216
+#, c-format
+msgid "Could not read HEIF file '%s': %s"
+msgstr ""
+
+#: src/heif-load.c:333
+#, c-format
+msgid "Decoding the HEIF image failed: %s"
+msgstr ""
+
+#: src/heif-load.c:348
+msgid "The HEIF image has an unsupported layout."
+msgstr ""
+
+#: src/heif-load.c:357
+msgid "Not enough memory to load the image."
+msgstr ""
+
+#: src/heif-load.c:451
+#, c-format
+msgid "Loading HDR image '%s'"
+msgstr ""
+
+#: src/heif-load.c:559 src/raw-load.c:348
+msgid "Preview"
+msgstr ""
+
+#: src/image.c:95
+msgid "Could not create the image."
+msgstr ""
+
+#: src/image.c:103
+msgid "RAW"
+msgstr ""
+
+#: src/plugin.c:133
+msgid "About RAW / HEIC loader"
+msgstr ""
+
+#: src/plugin.c:136
+msgid "Show gimp-raw-heic version"
+msgstr ""
+
+#: src/plugin.c:137
+msgid "Shows plug-in and library versions."
+msgstr ""
+
+#: src/plugin.c:155
+#, c-format
+msgid ""
+"gimp-raw-heic %s\n"
+"LibRaw %s (%d cameras)\n"
+"libheif %s\n"
+"License: GPL-3.0-or-later"
+msgstr ""
+
+#: src/raw-develop.c:34
+#, c-format
+msgid "Loading '%s' was cancelled."
+msgstr ""
+
+#: src/raw-develop.c:37
+#, c-format
+msgid "'%s' is not a supported RAW file or the camera is unknown to LibRaw %s."
+msgstr ""
+
+#: src/raw-develop.c:42
+#, c-format
+msgid "Not enough memory to load '%s'."
+msgstr ""
+
+#: src/raw-develop.c:45
+#, c-format
+msgid "'%s' is damaged or truncated (%s)."
+msgstr ""
+
+#: src/raw-develop.c:49
+#, c-format
+msgid "Could not load '%s': %s"
+msgstr ""
+
+#: src/raw-develop.c:118
+#, c-format
+msgid "'%s' reports an invalid image size (%u x %u)."
+msgstr ""
+
+#: src/raw-develop.c:452
+msgid "Could not initialise LibRaw."
+msgstr ""
+
+#: src/raw-dialog.c:159
+#, c-format
+msgid "%s — preview %d ms"
+msgstr ""
+
+#: src/raw-dialog.c:195
+msgid "Developing preview…"
+msgstr ""
+
+#: src/raw-dialog.c:298
+msgid "_Develop"
+msgstr ""
+
+#: src/raw-dialog.c:301 src/settings.c:165
+msgid "White balance"
+msgstr ""
+
+#: src/raw-dialog.c:303
+msgid "Detail"
+msgstr ""
+
+#: src/raw-dialog.c:304
+msgid "Output"
+msgstr ""
+
+#: src/raw-dialog.c:307
+msgid "Tip: click the preview to pick a neutral (grey) area."
+msgstr ""
+
+#: src/raw-load.c:60
+msgid "Camera RAW (LibRaw)"
+msgstr ""
+
+#: src/raw-load.c:62
+msgid "Load camera RAW files with LibRaw"
+msgstr ""
+
+#: src/raw-load.c:63
+msgid ""
+"Develops camera RAW files (CR2, CR3, NEF, ARW, RAF, DNG, RW2, ORF, PEF and "
+"many more) inside GIMP using LibRaw, without external programs."
+msgstr ""
+
+#: src/raw-load.c:80
+msgid "Always show this dialog"
+msgstr ""
+
+#: src/raw-load.c:81
+msgid ""
+"Show the import settings for every file (hold Shift while opening to invert)"
+msgstr ""
+
+#: src/raw-load.c:99
+msgid "Load the embedded preview of a RAW file"
+msgstr ""
+
+#: src/raw-load.c:100
+msgid "Fast thumbnail from the JPEG preview that cameras embed in RAW files."
+msgstr ""
+
+#: src/raw-load.c:151
+msgid "RAW files can only be opened from a local disk."
+msgstr ""
+
+#: src/raw-load.c:166
+#, c-format
+msgid "Develop RAW – %s"
+msgstr ""
+
+#: src/raw-load.c:186
+#, c-format
+msgid "Developing '%s'"
+msgstr ""
+
+#: src/raw-load.c:201
+#, c-format
+msgid "Creating image from '%s'"
+msgstr ""
+
+#: src/redevelop.c:46
+msgid "Develop RAW again..."
+msgstr ""
+
+#: src/redevelop.c:49
+msgid "Develop the original RAW file again with new settings"
+msgstr ""
+
+#: src/redevelop.c:50
+msgid ""
+"Uses the RAW file path and settings stored in the image (also in XCF files) "
+"to develop the RAW again, replacing the developed layer or adding a new "
+"layer."
+msgstr ""
+
+#: src/redevelop.c:59
+msgid "Result"
+msgstr ""
+
+#: src/redevelop.c:60
+msgid "Replace the developed layer or add a new one"
+msgstr ""
+
+#: src/redevelop.c:63
+msgid "Replace the developed layer"
+msgstr ""
+
+#: src/redevelop.c:65
+msgid "Add as a new layer"
+msgstr ""
+
+#: src/redevelop.c:151
+msgid ""
+"This image was not loaded from a RAW file by gimp-raw-heic, so there is "
+"nothing to develop again."
+msgstr ""
+
+#: src/redevelop.c:166
+msgid "The RAW information stored in this image is damaged."
+msgstr ""
+
+#: src/redevelop.c:175
+#, c-format
+msgid ""
+"The original RAW file was not found:\n"
+"%s\n"
+"\n"
+"Put it back at this location to develop it again."
+msgstr ""
+
+#: src/redevelop.c:185
+#, c-format
+msgid "Develop RAW again – %s"
+msgstr ""
+
+#: src/redevelop.c:204
+msgid "Developing RAW again"
+msgstr ""
+
+#: src/redevelop.c:245
+#, c-format
+msgid "%s (developed again)"
+msgstr ""
+
+#: src/settings.c:23
+msgid "As shot (camera)"
+msgstr ""
+
+#: src/settings.c:24
+msgid "Automatic"
+msgstr ""
+
+#: src/settings.c:25
+msgid "Manual (temperature / tint)"
+msgstr ""
+
+#: src/settings.c:26
+msgid "Neutral point (picked area)"
+msgstr ""
+
+#: src/settings.c:32
+msgid "Clip"
+msgstr ""
+
+#: src/settings.c:33
+msgid "Unclip"
+msgstr ""
+
+#: src/settings.c:34
+msgid "Blend"
+msgstr ""
+
+#: src/settings.c:35
+msgid "Rebuild"
+msgstr ""
+
+#: src/settings.c:42
+msgid "Bilinear (fastest)"
+msgstr ""
+
+#: src/settings.c:43
+msgid "VNG"
+msgstr ""
+
+#: src/settings.c:44
+msgid "PPG"
+msgstr ""
+
+#: src/settings.c:45
+msgid "AHD"
+msgstr ""
+
+#: src/settings.c:46
+msgid "DCB"
+msgstr ""
+
+#: src/settings.c:47
+msgid "DHT"
+msgstr ""
+
+#: src/settings.c:48
+msgid "AAHD"
+msgstr ""
+
+#: src/settings.c:54
+msgid "Off"
+msgstr ""
+
+#: src/settings.c:55
+msgid "Light"
+msgstr ""
+
+#: src/settings.c:56
+msgid "Full"
+msgstr ""
+
+#: src/settings.c:62
+msgid "sRGB"
+msgstr ""
+
+#: src/settings.c:63
+msgid "Adobe RGB (1998)"
+msgstr ""
+
+#: src/settings.c:64
+msgid "Display P3"
+msgstr ""
+
+#: src/settings.c:65
+msgid "ProPhoto RGB"
+msgstr ""
+
+#: src/settings.c:66
+msgid "Rec. 2020"
+msgstr ""
+
+#: src/settings.c:72
+msgid "8-bit integer"
+msgstr ""
+
+#: src/settings.c:73
+msgid "16-bit integer"
+msgstr ""
+
+#: src/settings.c:74
+msgid "32-bit floating point"
+msgstr ""
+
+#: src/settings.c:166
+msgid "White balance mode"
+msgstr ""
+
+#: src/settings.c:170
+msgid "Temperature (K)"
+msgstr ""
+
+#: src/settings.c:171
+msgid "Colour temperature for manual white balance"
+msgstr ""
+
+#: src/settings.c:174
+msgid "Tint"
+msgstr ""
+
+#: src/settings.c:175
+msgid "Tint for manual white balance: negative = green, positive = magenta"
+msgstr ""
+
+#: src/settings.c:177
+msgid "Spot X"
+msgstr ""
+
+#: src/settings.c:178
+msgid "Neutral area left edge (0..1)"
+msgstr ""
+
+#: src/settings.c:180
+msgid "Spot Y"
+msgstr ""
+
+#: src/settings.c:181
+msgid "Neutral area top edge (0..1)"
+msgstr ""
+
+#: src/settings.c:183
+msgid "Spot width"
+msgstr ""
+
+#: src/settings.c:184
+msgid "Neutral area width (0..1)"
+msgstr ""
+
+#: src/settings.c:186
+msgid "Spot height"
+msgstr ""
+
+#: src/settings.c:187
+msgid "Neutral area height (0..1)"
+msgstr ""
+
+#: src/settings.c:191
+msgid "Exposure correction applied before demosaicing"
+msgstr ""
+
+#: src/settings.c:194
+msgid "Preserve highlights"
+msgstr ""
+
+#: src/settings.c:195
+msgid "Highlight preservation for positive exposure (0..1)"
+msgstr ""
+
+#: src/settings.c:198
+msgid "Highlight recovery"
+msgstr ""
+
+#: src/settings.c:199
+msgid ""
+"How clipped highlights are handled; modes other than Clip darken the image "
+"by about 1 EV to make room for the recovered highlights (compensate with "
+"Exposure)"
+msgstr ""
+
+#: src/settings.c:203
+msgid "Rebuild level"
+msgstr ""
+
+#: src/settings.c:204
+msgid "Strength of the 'rebuild' highlight mode"
+msgstr ""
+
+#: src/settings.c:207
+msgid "Brightness"
+msgstr ""
+
+#: src/settings.c:208
+msgid "Output brightness multiplier"
+msgstr ""
+
+#: src/settings.c:211
+msgid "Automatic brightness"
+msgstr ""
+
+#: src/settings.c:212
+msgid "Stretch the histogram like dcraw (clips one percent of pixels)"
+msgstr ""
+
+#: src/settings.c:215
+msgid "Demosaicing"
+msgstr ""
+
+#: src/settings.c:216
+msgid ""
+"Interpolation algorithm (X-Trans sensors always use the X-Trans algorithm)"
+msgstr ""
+
+#: src/settings.c:220
+msgid "Noise reduction (wavelet)"
+msgstr ""
+
+#: src/settings.c:221
+msgid "Wavelet denoising threshold, 0 = off (typical 100..1000)"
+msgstr ""
+
+#: src/settings.c:224
+msgid "FBDD noise reduction"
+msgstr ""
+
+#: src/settings.c:225
+msgid "FBDD noise reduction before demosaicing"
+msgstr ""
+
+#: src/settings.c:229
+msgid "Chromatic aberration – red"
+msgstr ""
+
+#: src/settings.c:230
+msgid "Red channel scale, 1.0 = off"
+msgstr ""
+
+#: src/settings.c:233
+msgid "Chromatic aberration – blue"
+msgstr ""
+
+#: src/settings.c:234
+msgid "Blue channel scale, 1.0 = off"
+msgstr ""
+
+#: src/settings.c:237
+msgid "Remove hot / dead pixels"
+msgstr ""
+
+#: src/settings.c:238
+msgid "Replace isolated outlier sensor pixels"
+msgstr ""
+
+#: src/settings.c:241
+msgid "Colour artefact median passes"
+msgstr ""
+
+#: src/settings.c:242
+msgid "3x3 median filter passes on colour differences"
+msgstr ""
+
+#: src/settings.c:245
+msgid "Output colour space"
+msgstr ""
+
+#: src/settings.c:246
+msgid "Colour space of the loaded image"
+msgstr ""
+
+#: src/settings.c:250
+msgid "Linear light (no gamma)"
+msgstr ""
+
+#: src/settings.c:251
+msgid "Keep scene-linear data; otherwise use the colour space's tone curve"
+msgstr ""
+
+#: src/settings.c:254
+msgid "Precision"
+msgstr ""
+
+#: src/settings.c:255
+msgid "Bit depth of the loaded image"
+msgstr ""
+
+#: src/settings.c:259
+msgid "Half size (fast)"
+msgstr ""
+
+#: src/settings.c:260
+msgid "Load at half resolution"
+msgstr ""
+
+#: src/settings.c:263
+msgid "Rotate according to camera orientation"
+msgstr ""
+
+#: src/settings.c:264
+msgid "Apply the orientation stored by the camera"
+msgstr ""
+
+#: src/settings.c:267
+msgid "Apply camera default crop"
+msgstr ""
+
+#: src/settings.c:268
+msgid "Use the default crop stored in the file (DNG, CR3, ...)"
+msgstr ""

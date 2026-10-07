@@ -1,0 +1,2 @@
+option('static_libraw', type : 'boolean', value : true,
+       description : 'Link LibRaw statically into the plug-in executable')

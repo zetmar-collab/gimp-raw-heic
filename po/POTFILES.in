@@ -1,0 +1,13 @@
+src/adjust.c
+src/batch.c
+src/denoise.c
+src/heif-load.c
+src/image.c
+src/plugin.c
+src/profiles.c
+src/raw-develop.c
+src/raw-dialog.c
+src/raw-load.c
+src/redevelop.c
+src/settings.c
+src/util.c

@@ -1,0 +1,10 @@
+# build output and packages (packages go to GitHub Releases)
+build/
+dist/
+# test samples: large RAW files and private photos - never commit
+samples/
+# working notes
+PROMPT_wtyczka_RAW_HEIC.md
+__pycache__/
+*.pyc
+*.mo
